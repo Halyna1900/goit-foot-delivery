@@ -7,8 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
     />
     <link
       rel="stylesheet"
@@ -22,16 +22,20 @@
   <body>
     <header class="header">
       <div class="container header-container">
-        <a class="logo" href=""
+        <a class="logo" href="./index.html"
           ><img src="./images/logo.svg" alt="Logo" width="66"
         /></a>
         <nav class="navigation">
           <ul class="nav-list">
-            <li><a class="nav-link" href="">Home</a></li>
-            <li><a class="nav-link" href="">About</a></li>
-            <li><a class="nav-link" href="">Service</a></li>
-            <li><a class="nav-link" href="">Menu</a></li>
-            <li><a class="nav-link" href="">Contact</a></li>
+            <li class="nav-list-item"><a class="nav-link" href="">Home</a></li>
+            <li class="nav-list-item"><a class="nav-link" href="">About</a></li>
+            <li class="nav-list-item">
+              <a class="nav-link" href="">Service</a>
+            </li>
+            <li class="nav-list-item"><a class="nav-link" href="">Menu</a></li>
+            <li class="nav-list-item">
+              <a class="nav-link" href="">Contact</a>
+            </li>
           </ul>
         </nav>
         <button class="main-btn" type="button" data-modal-open>
@@ -177,7 +181,7 @@
       </section>
 
       <!--Reviews-->
-      <section class="coustomer">
+      <section class="coustomers">
         <div class="container">
           <h2 class="coustomers-title">What our Customers Say</h2>
           <p class="coustomers-desc">
@@ -352,14 +356,14 @@
     <div class="backdrop is-open" data-modal>
       <div class="modal">
         <button class="modal-close-btn" type="button" data-modal-close>
-          <svg class="modal-close-btn-icon" width="11" hight="11">
+          <svg class="modal-close-btn-icon" width="11" height="11">
             <use href="./images/vector.svg#icon-close"></use>
           </svg>
         </button>
         <p class="modal-title">Order Form</p>
         <form class="modal-form">
           <div class="modal-field-wrapper">
-            <lible for="user-name" class="modal-lable">Name</lible>
+            <lable for="user-name" class="modal-lable">Name</lable>
             <input
               type="text"
               class="modal-input"
