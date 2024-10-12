@@ -1,0 +1,520 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #2c2c2c;
+  font-size: 16px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+.container {
+  width: 1280px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+/**********************HEADER STYLE**********************/
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin-right: auto;
+}
+.navigation {
+  margin-right: 30px;
+}
+.nav-list {
+  display: flex;
+  gap: 28px;
+}
+.nav-link {
+  padding: 28px 0;
+  display: block;
+  font-size: 14px;
+}
+.nav-link:hover,
+.nav-link:focus {
+  font-weight: 700;
+  text-decoration: underline;
+  color: #bbf330;
+}
+.main-btn {
+  border-radius: 30px;
+  min-width: 98px;
+  height: 32px;
+  background-color: #bbf330;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #2c2c2c;
+  cursor: pointer;
+  border: none;
+}
+
+.main-btn:hover,
+.main-btn:focus {
+  background-color: #ffe450;
+}
+
+/* ================== HERO STYLE ================== */
+.hero {
+  padding-top: 14px;
+  padding-bottom: 69px;
+}
+
+.hero .container {
+  display: flex;
+  align-items: center;
+  gap: 143px;
+}
+
+.hero-wrapper {
+  max-width: 511px;
+}
+.hero-title {
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 28px;
+}
+.hero-desc {
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+.hero-img {
+  border-radius: 100%;
+  background-color: #fefefe;
+  border: 46px solid #ffe550;
+}
+/* ================ /HERO STYLE ================ */
+
+/* ================ ABOUT STYLE ================ */
+.about {
+  padding-top: 113px;
+  padding-bottom: 134px;
+  background-color: #ffe550;
+}
+.about .container {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+}
+
+.about-title {
+  font-size: 42px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.about-text {
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+.about-list {
+  display: flex;
+  gap: 67px;
+  margin-bottom: 32px;
+}
+.icon-wrap {
+  border-radius: 100%;
+  background-color: #fefefe;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.about-icon {
+  fill: #7eb101;
+}
+.about-item {
+  width: calc((100% - 67px) / 2);
+}
+.about-sub-title {
+  font-size: 18px;
+  line-height: 1.4;
+  margin-bottom: 16px;
+}
+.about-desc {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.about-wrapper {
+  max-width: 573px;
+}
+
+.about-btn {
+  background-color: #fff;
+  border: 2px solid #7eb101;
+}
+
+.about-btn:hover,
+.about-btn:focus {
+  background-color: #bbf330;
+  border: #bbf330;
+}
+/* ================ /ABOUT STYLE ================ */
+
+/* ================ FAVORITES STYLE ================ */
+.favorites {
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
+.favorite-title {
+  font-size: 42px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.favorite-dsc {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.favorite-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.favorite-item {
+  width: calc((100% - 64px) / 3);
+}
+
+.favorite-img {
+  border: 16px solid #ffe550;
+  border-radius: 197px;
+  background-color: #fefefe;
+}
+/* ================ /FAVORITES STYLE ================ */
+
+/* ================ REVIES STYLE ================ */
+.coustomer {
+  padding-top: 140px;
+  padding-bottom: 126px;
+  background-color: #ffe550;
+}
+.container {
+  max-width: 1141px;
+}
+.coustomers-title {
+  font-size: 42px;
+  margin-bottom: 24px;
+}
+.coustomers-desc {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+
+.coustomers-subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.coustomers-list {
+  display: flex;
+  gap: 139px;
+}
+.coustomers-item {
+  background-color: #fefefe;
+}
+
+.coustomers-icon-list {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 28px;
+}
+.coustomers-icon {
+  fill: #ffe550;
+}
+
+.coustomers-name {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.coustomers-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+}
+/* ================ /REVIES STYLE ================ */
+/* ================ SUBSCRIBE STYLE ============== */
+
+.subscribe {
+  margin-top: 176px;
+  margin-bottom: 201px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1280px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+.subscribe-content {
+  max-width: 50%;
+}
+.subscribe-title {
+  font-size: 42px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.subscribe-dsc {
+  max-width: 532px;
+  margin-bottom: 24px;
+}
+
+.subscribe-input {
+  border: 0.85px solid #ffe550;
+  border-radius: 30px;
+  padding-left: 11px;
+  width: 395px;
+  height: 42px;
+  background-color: #fefefe;
+  margin-right: 37px;
+  outline: transparent;
+  background-color: transparent;
+}
+.subscribe-btn {
+  border-radius: 30px;
+  width: 103px;
+  height: 42px;
+  background-color: #bbf330;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #2c2c2c;
+  cursor: pointer;
+  border: none;
+}
+
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+  background-color: #ffe450;
+}
+.subscribe-img {
+  max-width: 100%;
+  height: auto;
+}
+/* ================ /SUBSCRIBE STYLE ============= */
+
+/* ================ FOOTER STYLE ================ */
+
+.footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  box-shadow: 0 -4px 24px 0 rgba(105, 105, 105, 0.1);
+  background: #fefefe;
+  background-image: url(../images/fruit-futer.png);
+  background-repeat: no-repeat;
+  background-size: 1243px;
+  background-position: bottom;
+}
+.logo {
+  margin-right: 143px;
+}
+
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+.footer-nav-list {
+  display: flex;
+  gap: 28px;
+}
+
+.footer-nav-link {
+  font-size: 14px;
+}
+.footer-title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+.footer-form {
+  display: flex;
+  gap: 13px;
+  margin-bottom: 12px;
+}
+.footer-input {
+  border: 0.85px solid #ffe550;
+  border-radius: 30px;
+  padding-left: 10px;
+  width: 279px;
+  height: 42px;
+  outline: transparent;
+  background-color: transparent;
+}
+
+.footer-input::placeholder {
+  font-size: 12px;
+  line-height: 1.5;
+  color: #505050;
+}
+.footer-form-btn {
+  border: 0.85px solid #7eb101;
+  border-radius: 30px;
+  padding: 10px 20px;
+  height: 42px;
+  outline: transparent;
+  background-color: transparent;
+}
+.footer-form-text {
+  font-size: 12px;
+}
+.footer-form-link {
+  text-decoration: underline;
+  color: #7eb101;
+}
+
+.footer-list-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-list-link {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-form-privacy {
+  font-size: 12px;
+  text-decoration: underline;
+  color: #7eb101;
+}
+.footer-dsc {
+  font-size: 12px;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+/*================= Modal Window style =================*/
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(94, 99, 99, 0.7);
+}
+
+.is-open {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 30px;
+  width: 458px;
+  height: 449px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06);
+  background: #ffe550;
+  padding: 32px;
+}
+.modal-close-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  border-radius: 100%;
+  fill: #fff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06);
+  width: 24px;
+  height: 24px;
+  line-height: 0;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-close-btn-icon {
+  fill: #2c2c2c;
+}
+.modal-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+  color: #2c2c2c;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.modal-field-wrapper {
+  margin-bottom: 24px;
+}
+.modal-lable {
+  font-weight: 500;
+  line-height: 1.4;
+  color: #2c2c2c;
+  display: block;
+  margin-bottom: 2px;
+  margin-left: 12px;
+}
+.modal-input {
+  border: 1px solid rgba(18, 18, 18, 0.12);
+  border-radius: 30px;
+  width: 394px;
+  height: 48px;
+  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  padding-left: 12px;
+  outline: transparent;
+}
+
+.modal-input::placeholder {
+  font-weight: 400;
+  line-height: 1.25;
+  color: #c4c4c4;
+}
+.modal-send-btn {
+  border: 2px solid #7eb101;
+  border-radius: 30px;
+  width: 106px;
+  height: 40px;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #2c2c2c;
+  display: block;
+  margin: 0 auto;
+}
